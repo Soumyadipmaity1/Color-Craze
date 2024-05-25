@@ -1,0 +1,67 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.button {
+    margin: 10px;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    transition: background-color 0.5s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    filter: brightness(70%); /* Dim the button on hover */
+}
+
+#red {
+    background-color: red;
+    border: 4px white solid;
+}
+
+#yellow {
+    background-color: yellow;
+    border: 4px white solid;
+}
+
+#sky {
+    background-color: skyblue;
+    border: 4px white solid;
+}
+
+#pink {
+    background-color: pink;
+    border: 4px white solid;
+}
+
+#purple {
+    background-color: purple;
+    border: 4px white solid;
+}
+
+#gray {
+    background-color: gray;
+    border: 4px white solid;
+}
+
+#white {
+    background-color: #2e1717;
+    border: 4px rgb(255, 255, 255) solid;
+}
+
+#orange {
+    background-color: orange;
+    border: 4px rgb(255, 255, 255) solid;
+}

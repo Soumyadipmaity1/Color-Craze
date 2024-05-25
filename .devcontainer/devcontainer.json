@@ -1,0 +1,9 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/r3dpoint/devcontainer-features/tailwindcss-standalone-cli:1": {
+			"version": "latest",
+			"fontsize": "28px"
+		}
+	}
+}
