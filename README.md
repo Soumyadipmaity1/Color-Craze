@@ -2,6 +2,9 @@
 
 <p> It is a dynamic web application that allows users to change the background color with a simple click. Select a color, click, and watch the magic as your background transforms instantly! </p>
 
+## Deployment
+https://color-craze.netlify.app/
+
 ## Features
 
 - Intuitive and user-friendly interface
