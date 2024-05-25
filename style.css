@@ -65,3 +65,23 @@
     background-color: orange;
     border: 4px rgb(255, 255, 255) solid;
 }
+#default{
+    background-color: #ffffff;
+    border:#131313 2.5px solid;
+}
+
+
+.Defaultbutton {
+    margin-top: 80px;
+    cursor: pointer;
+   padding:10px 40px;
+    transition: background-color 0.5s; /* Smooth transition for hover effect */
+    color: black;
+    font-size: large;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.Defaultbutton:hover {
+    filter: brightness(70%); /* Dim the button on hover */
+}

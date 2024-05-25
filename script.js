@@ -1,6 +1,8 @@
-const buttons = document.querySelectorAll('.button');
+const buttons1 = document.querySelectorAll('.button');
+const buttons2 = document.querySelectorAll('.Defaultbutton');
+
 const body = document.querySelector("body");
-buttons.forEach((button) => {
+buttons1.forEach((button) => {
     button.addEventListener('click', (e) => {
         if (e.target.id === 'red') {
             body.style.backgroundColor = 'red';
@@ -26,7 +28,19 @@ buttons.forEach((button) => {
         else if (e.target.id === 'sky'){
             body.style.backgroundColor = '#87ceeb';
         }
+
     }
     );
 }
 );
+
+buttons2.forEach((button) => {
+    button.addEventListener('click', (d)=>
+    {
+        if(d.target.id === 'default')
+        {
+            body.style.backgroundColor = 'black';
+        }
+    });
+})
+
