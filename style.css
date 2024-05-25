@@ -51,12 +51,12 @@
     border: 4px white solid;
 }
 
-#gray {
-    background-color: gray;
+#green {
+    background-color: green;
     border: 4px white solid;
 }
 
-#white {
+#brown {
     background-color: #2e1717;
     border: 4px rgb(255, 255, 255) solid;
 }

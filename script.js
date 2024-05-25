@@ -11,8 +11,8 @@ buttons.forEach((button) => {
         else if (e.target.id === 'yellow') {
             body.style.backgroundColor = 'yellow';
         }
-        else if (e.target.id === 'white') {
-            body.style.backgroundColor = 'white';
+        else if (e.target.id === 'brown') {
+            body.style.backgroundColor = '#2e1717';
         }
         else if (e.target.id === 'orange'){
             body.style.backgroundColor = 'orange';
@@ -24,7 +24,7 @@ buttons.forEach((button) => {
             body.style.backgroundColor = 'pink';
         }
         else if (e.target.id === 'sky'){
-            body.style.backgroundColor = 'sky';
+            body.style.backgroundColor = '#87ceeb';
         }
     }
     );
